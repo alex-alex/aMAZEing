@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA08F82E18BCB89700A79296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA691C8F17F1D2DC00EAB063 /* Foundation.framework */; };
+		FA08F83018BCB89700A79296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA08F82F18BCB89700A79296 /* CoreGraphics.framework */; };
+		FA08F83A18BCB89700A79296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08F83918BCB89700A79296 /* main.m */; };
+		FA08F83E18BCB89700A79296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08F83D18BCB89700A79296 /* AppDelegate.m */; };
+		FA08F84118BCB89700A79296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA08F83F18BCB89700A79296 /* Main.storyboard */; };
+		FA08F84418BCB89700A79296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08F84318BCB89700A79296 /* ViewController.m */; };
+		FA08F84618BCB89700A79296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA08F84518BCB89700A79296 /* Images.xcassets */; };
+		FA42E07D1862EC2F002E57DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA42E07C1862EC2F002E57DA /* Images.xcassets */; };
+		FA691C8B17F1D2DC00EAB063 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA691C8A17F1D2DC00EAB063 /* Cocoa.framework */; };
+		FA691C9717F1D2DC00EAB063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA691C9617F1D2DC00EAB063 /* main.m */; };
+		FA691C9B17F1D2DC00EAB063 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA691C9917F1D2DC00EAB063 /* Credits.rtf */; };
+		FA691C9E17F1D2DC00EAB063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA691C9D17F1D2DC00EAB063 /* AppDelegate.m */; };
+		FA691CC017F1D71D00EAB063 /* CGImageInspection.m in Sources */ = {isa = PBXBuildFile; fileRef = FA691CBF17F1D71D00EAB063 /* CGImageInspection.m */; };
+		FA691CC917F1D7A200EAB063 /* Pathfinding.m in Sources */ = {isa = PBXBuildFile; fileRef = FA691CC517F1D7A200EAB063 /* Pathfinding.m */; };
+		FA71AF4E189022160075FD84 /* GUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA71AF4C189022160075FD84 /* GUI.xib */; };
+		FA97197018BCC31F0067E964 /* CGImageInspection.m in Sources */ = {isa = PBXBuildFile; fileRef = FA691CBF17F1D71D00EAB063 /* CGImageInspection.m */; };
+		FA97197118BCC3210067E964 /* Pathfinding.m in Sources */ = {isa = PBXBuildFile; fileRef = FA691CC517F1D7A200EAB063 /* Pathfinding.m */; };
+		FAFBEFE51BD02BE700875EC9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFBEFE41BD02BE700875EC9 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA08F82D18BCB89700A79296 /* aMAZEing-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aMAZEing-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA08F82F18BCB89700A79296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA08F83518BCB89700A79296 /* aMAZEing-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aMAZEing-iOS-Info.plist"; sourceTree = "<group>"; };
+		FA08F83918BCB89700A79296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA08F83B18BCB89700A79296 /* aMAZEing-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aMAZEing-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		FA08F83C18BCB89700A79296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA08F83D18BCB89700A79296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA08F84018BCB89700A79296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA08F84218BCB89700A79296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA08F84318BCB89700A79296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA08F84518BCB89700A79296 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA42E07C1862EC2F002E57DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA691C8717F1D2DC00EAB063 /* aMAZEing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aMAZEing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA691C8A17F1D2DC00EAB063 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA691C8D17F1D2DC00EAB063 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA691C8E17F1D2DC00EAB063 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA691C8F17F1D2DC00EAB063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA691C9217F1D2DC00EAB063 /* aMAZEing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aMAZEing-Info.plist"; sourceTree = "<group>"; };
+		FA691C9617F1D2DC00EAB063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA691C9817F1D2DC00EAB063 /* aMAZEing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aMAZEing-Prefix.pch"; sourceTree = "<group>"; };
+		FA691C9A17F1D2DC00EAB063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA691C9C17F1D2DC00EAB063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA691C9D17F1D2DC00EAB063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA691CBE17F1D71D00EAB063 /* CGImageInspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageInspection.h; sourceTree = "<group>"; };
+		FA691CBF17F1D71D00EAB063 /* CGImageInspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageInspection.m; sourceTree = "<group>"; };
+		FA691CC417F1D7A200EAB063 /* Pathfinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pathfinding.h; sourceTree = "<group>"; };
+		FA691CC517F1D7A200EAB063 /* Pathfinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pathfinding.m; sourceTree = "<group>"; };
+		FA71AF4D189022160075FD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GUI.xib; sourceTree = "<group>"; };
+		FAFBEFE41BD02BE700875EC9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA08F82A18BCB89700A79296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA08F83018BCB89700A79296 /* CoreGraphics.framework in Frameworks */,
+				FA08F82E18BCB89700A79296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA691C8417F1D2DC00EAB063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA691C8B17F1D2DC00EAB063 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA08F83318BCB89700A79296 /* aMAZEing-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA08F83C18BCB89700A79296 /* AppDelegate.h */,
+				FA08F83D18BCB89700A79296 /* AppDelegate.m */,
+				FA08F84218BCB89700A79296 /* ViewController.h */,
+				FA08F84318BCB89700A79296 /* ViewController.m */,
+				FA08F83418BCB89700A79296 /* Supporting Files */,
+			);
+			path = "aMAZEing-iOS";
+			sourceTree = "<group>";
+		};
+		FA08F83418BCB89700A79296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA08F84518BCB89700A79296 /* Images.xcassets */,
+				FAFBEFE41BD02BE700875EC9 /* Launch Screen.storyboard */,
+				FA08F83F18BCB89700A79296 /* Main.storyboard */,
+				FA08F83518BCB89700A79296 /* aMAZEing-iOS-Info.plist */,
+				FA08F83918BCB89700A79296 /* main.m */,
+				FA08F83B18BCB89700A79296 /* aMAZEing-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA691C7E17F1D2DC00EAB063 = {
+			isa = PBXGroup;
+			children = (
+				FA691C9017F1D2DC00EAB063 /* aMAZEing */,
+				FA08F83318BCB89700A79296 /* aMAZEing-iOS */,
+				FA691CC117F1D78900EAB063 /* Pathfinding */,
+				FA691CCB17F1D7B800EAB063 /* Extensions */,
+				FA691C8917F1D2DC00EAB063 /* Frameworks */,
+				FA691C8817F1D2DC00EAB063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA691C8817F1D2DC00EAB063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA691C8717F1D2DC00EAB063 /* aMAZEing.app */,
+				FA08F82D18BCB89700A79296 /* aMAZEing-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA691C8917F1D2DC00EAB063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA691C8A17F1D2DC00EAB063 /* Cocoa.framework */,
+				FA691C8D17F1D2DC00EAB063 /* AppKit.framework */,
+				FA691C8E17F1D2DC00EAB063 /* CoreData.framework */,
+				FA691C8F17F1D2DC00EAB063 /* Foundation.framework */,
+				FA08F82F18BCB89700A79296 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA691C9017F1D2DC00EAB063 /* aMAZEing */ = {
+			isa = PBXGroup;
+			children = (
+				FA691C9C17F1D2DC00EAB063 /* AppDelegate.h */,
+				FA691C9D17F1D2DC00EAB063 /* AppDelegate.m */,
+				FA691C9117F1D2DC00EAB063 /* Supporting Files */,
+			);
+			path = aMAZEing;
+			sourceTree = "<group>";
+		};
+		FA691C9117F1D2DC00EAB063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA42E07C1862EC2F002E57DA /* Images.xcassets */,
+				FA71AF4C189022160075FD84 /* GUI.xib */,
+				FA691C9217F1D2DC00EAB063 /* aMAZEing-Info.plist */,
+				FA691C9617F1D2DC00EAB063 /* main.m */,
+				FA691C9817F1D2DC00EAB063 /* aMAZEing-Prefix.pch */,
+				FA691C9917F1D2DC00EAB063 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA691CC117F1D78900EAB063 /* Pathfinding */ = {
+			isa = PBXGroup;
+			children = (
+				FA691CC417F1D7A200EAB063 /* Pathfinding.h */,
+				FA691CC517F1D7A200EAB063 /* Pathfinding.m */,
+			);
+			name = Pathfinding;
+			path = aMAZEing;
+			sourceTree = "<group>";
+		};
+		FA691CCB17F1D7B800EAB063 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA691CCC17F1D7C800EAB063 /* CGImageInspection */,
+			);
+			name = Extensions;
+			path = aMAZEing;
+			sourceTree = "<group>";
+		};
+		FA691CCC17F1D7C800EAB063 /* CGImageInspection */ = {
+			isa = PBXGroup;
+			children = (
+				FA691CBE17F1D71D00EAB063 /* CGImageInspection.h */,
+				FA691CBF17F1D71D00EAB063 /* CGImageInspection.m */,
+			);
+			name = CGImageInspection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA08F82C18BCB89700A79296 /* aMAZEing-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA08F85A18BCB89800A79296 /* Build configuration list for PBXNativeTarget "aMAZEing-iOS" */;
+			buildPhases = (
+				FA08F82918BCB89700A79296 /* Sources */,
+				FA08F82A18BCB89700A79296 /* Frameworks */,
+				FA08F82B18BCB89700A79296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aMAZEing-iOS";
+			productName = "aMAZEing-iOS";
+			productReference = FA08F82D18BCB89700A79296 /* aMAZEing-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA691C8617F1D2DC00EAB063 /* aMAZEing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA691CB817F1D2DD00EAB063 /* Build configuration list for PBXNativeTarget "aMAZEing" */;
+			buildPhases = (
+				FA691C8317F1D2DC00EAB063 /* Sources */,
+				FA691C8417F1D2DC00EAB063 /* Frameworks */,
+				FA691C8517F1D2DC00EAB063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aMAZEing;
+			productName = aMAZEing;
+			productReference = FA691C8717F1D2DC00EAB063 /* aMAZEing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA691C7F17F1D2DC00EAB063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alex Studnička";
+			};
+			buildConfigurationList = FA691C8217F1D2DC00EAB063 /* Build configuration list for PBXProject "aMAZEing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA691C7E17F1D2DC00EAB063;
+			productRefGroup = FA691C8817F1D2DC00EAB063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA691C8617F1D2DC00EAB063 /* aMAZEing */,
+				FA08F82C18BCB89700A79296 /* aMAZEing-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA08F82B18BCB89700A79296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFBEFE51BD02BE700875EC9 /* Launch Screen.storyboard in Resources */,
+				FA08F84618BCB89700A79296 /* Images.xcassets in Resources */,
+				FA08F84118BCB89700A79296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA691C8517F1D2DC00EAB063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA71AF4E189022160075FD84 /* GUI.xib in Resources */,
+				FA42E07D1862EC2F002E57DA /* Images.xcassets in Resources */,
+				FA691C9B17F1D2DC00EAB063 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA08F82918BCB89700A79296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97197118BCC3210067E964 /* Pathfinding.m in Sources */,
+				FA97197018BCC31F0067E964 /* CGImageInspection.m in Sources */,
+				FA08F84418BCB89700A79296 /* ViewController.m in Sources */,
+				FA08F83E18BCB89700A79296 /* AppDelegate.m in Sources */,
+				FA08F83A18BCB89700A79296 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA691C8317F1D2DC00EAB063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA691C9E17F1D2DC00EAB063 /* AppDelegate.m in Sources */,
+				FA691CC017F1D71D00EAB063 /* CGImageInspection.m in Sources */,
+				FA691C9717F1D2DC00EAB063 /* main.m in Sources */,
+				FA691CC917F1D7A200EAB063 /* Pathfinding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA08F83F18BCB89700A79296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA08F84018BCB89700A79296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA691C9917F1D2DC00EAB063 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA691C9A17F1D2DC00EAB063 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA71AF4C189022160075FD84 /* GUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA71AF4D189022160075FD84 /* Base */,
+			);
+			name = GUI.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA08F85B18BCB89800A79296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aMAZEing-iOS/aMAZEing-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aMAZEing-iOS/aMAZEing-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astudnicka.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA08F85C18BCB89800A79296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aMAZEing-iOS/aMAZEing-iOS-Prefix.pch";
+				INFOPLIST_FILE = "aMAZEing-iOS/aMAZEing-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astudnicka.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA691CB617F1D2DD00EAB063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA691CB717F1D2DD00EAB063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA691CB917F1D2DD00EAB063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aMAZEing/aMAZEing-Prefix.pch";
+				INFOPLIST_FILE = "aMAZEing/aMAZEing-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.astudnicka.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA691CBA17F1D2DD00EAB063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aMAZEing/aMAZEing-Prefix.pch";
+				INFOPLIST_FILE = "aMAZEing/aMAZEing-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.astudnicka.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA08F85A18BCB89800A79296 /* Build configuration list for PBXNativeTarget "aMAZEing-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA08F85B18BCB89800A79296 /* Debug */,
+				FA08F85C18BCB89800A79296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA691C8217F1D2DC00EAB063 /* Build configuration list for PBXProject "aMAZEing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA691CB617F1D2DD00EAB063 /* Debug */,
+				FA691CB717F1D2DD00EAB063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA691CB817F1D2DD00EAB063 /* Build configuration list for PBXNativeTarget "aMAZEing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA691CB917F1D2DD00EAB063 /* Debug */,
+				FA691CBA17F1D2DD00EAB063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA691C7F17F1D2DC00EAB063 /* Project object */;
+}
