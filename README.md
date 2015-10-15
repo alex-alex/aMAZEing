@@ -1,6 +1,6 @@
 # aMAZEing
 
-iOS app to sloving maze by taking a photo
+iOS/OSX app for sloving maze by taking a photo
 
 Screenshot
 ----------
